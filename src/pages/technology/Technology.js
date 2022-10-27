@@ -10,7 +10,7 @@ export default function Technology() {
   }, [activeTab])
 
   return (
-<div className="bg-techmob md:bg-techtab lg:bg-tech  pt-[220px]  px-10   md:px-24 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between">
+<div className="bg-techmob md:bg-techtab lg:bg-tech  pt-[220px]  px-10   md:px-32 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between">
       <div className="w-full">
         <h1 className="text-[#fff] text-[16px] md:text-[28px] font-normal tracking-[4.72px] mb-[45px] text-center md:text-left">
           <b className="text-[#979797] mr-8">03</b>
@@ -31,7 +31,7 @@ export default function Technology() {
               {techData.map((e)=>e.detail)}
             </p>
           </div>
-          <img src=  {techData.map((e)=>e.img)} alt="" className="lg:absolute right-0  w-screen lg:w-auto relative" />
+          <img src=  {techData.map((e)=>e.img)} alt="" className="lg:absolute right-0   w-screen lg:w-auto relative" />
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Navbar from '../../components/navbar/Navbar'
 
 export default function Home() {
   return (
-    <div className=" bg-homemob md:bg-hometab lg:bg-home bg-center  bg-cover w-screen min-h-screen  px-10 md:px-24  top-0 left-0 absolute flex  items-end justify-between">
+    <div className=" bg-homemob md:bg-hometab lg:bg-home bg-center  bg-cover w-screen min-h-screen  px-10 md:px-52  top-0 left-0 absolute flex  items-end justify-between">
         <div className='flex flex-col lg:flex-row justify-between items-center   pt-[220px] w-full  '>
           <div className=' pb-[90px] '>
             <p className='text-[#d2d8f9] text-[28px] font-normal tracking-[4.72px] text-center md:text-left '>So, you want to travel to</p>

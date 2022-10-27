@@ -13,13 +13,13 @@ export default function Destination() {
 
   // console.log(dataValue);
   return (
-    <div className='bg-destmob md:bg-desttab lg:bg-destination  pt-[220px] px-10  md:px-24 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between'>
+    <div className='bg-destmob md:bg-desttab lg:bg-destination  pt-[220px] px-10  md:px-52 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between'>
         <div className='w-full'>
-          <h1 className='text-[#fff] text-[16px] md:text-[28px] font-normal tracking-[4.72px] mb-[45px] text-center md:text-left '>
+          <h1 className='text-[#fff] text-[16px] md:text-[28px]  font-normal tracking-[4.72px] mb-[45px] text-center md:text-left '>
               <b className='text-[#979797] mr-8'>01</b>
               Pick your destination
             </h1>
-          <div className=' flex  justify-around items-center flex-wrap'>
+          <div className=' flex  justify-between items-center flex-wrap'>
             <img src={dataValue.map((e)=>e.img)} alt="" className='w-[170px] md:w-[445px] md:max-w-[445px] mb-[53px]' />
               <div className='w-[445px] text-[#979797]'>
                 <ul className='flex justify-center md:justify-start  text-[#979797] gap-[26px] md:gap-[35px] items-center mb-[37px] h-[39px] relative text-[16px] tracking-[4px] '>

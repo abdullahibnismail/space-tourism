@@ -10,7 +10,7 @@ export default function Crew() {
   }, [activeTab])
 
   return (
-    <div className="bg-crewmob md:bg-crewtab lg:bg-crew  pt-[220px] px-10  md:px-24 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between">
+    <div className="bg-crewmob md:bg-crewtab lg:bg-crew  pt-[220px] px-10  md:pl-52 md:pr-28 bg-center bg-cover w-screen min-h-screen top-0 left-0 absolute flex  justify-between">
       <div className="w-full relative">
         <h1 className="text-[#fff] text-[16px] md:text-[28px] font-normal tracking-[4.72px] mb-[45px] text-center md:text-left ">
           <b className="text-[#979797] mr-8">02</b>
